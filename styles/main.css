@@ -1,0 +1,247 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+/* header */
+.box{
+    display: inline-block;
+}
+h1{
+	position: absolute;
+	top: 20px;
+	left: 139px;
+	color: white;
+	font-size: 14px;
+    font-family: 'Poppins-bold';
+}
+.relative{
+	position: relative;
+}
+header ul{
+	position: absolute;
+	margin-left: 665px;
+	color: white;
+	font-size: 12px;
+	top: 0px;
+	font-family: 'Poppins-medium';
+}
+.arrow {
+	border: solid white;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	margin-left: 1px;
+	padding: 3px;
+}
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+nav li{
+	padding: 20px;
+}
+header > h2{
+	display: inline-block;
+	position: absolute;
+	color: white;
+	font-size: 62px;
+	top: 209px;
+	left: 139px;
+	width: 576px;
+	height: 160px;
+	font-family: 'Poppins-extrabold';
+}
+header > p{
+	display: inline-block;
+	position: absolute;
+	color: white;
+	font-size: 14px;
+	width: 352px;
+	height: 64px;
+	top: 339px;
+	left: 139px;
+	font-family: 'Poppins-regular';
+	margin-top: 20px;
+}
+
+#right {
+	position: absolute;
+	right: 157px;
+	top: 556px;
+	z-index: 10;
+}
+#left{
+
+	position: absolute;
+	right: 208px;
+	top: 556px;
+	z-index: 10;
+}
+#leftbox{
+   display: inline-block;
+   width: 51px;
+   height: 51px;
+   position: absolute;
+   background-color: white;
+   top: 537px;
+   right: 190px;
+   
+}
+#rightbox{
+	display: inline-block;
+	width: 51px;
+	height: 51px;
+	position: absolute;
+	background-color: #5863F8;
+	top: 537px;
+	right: 139px;
+}
+header > h3{
+	display: inline-block;
+	color: white;
+	position: absolute;
+	font-family: 'Poppins-bold';
+	font-size: 20px;
+	top: 572px;
+	left: 139px;
+}
+/* section */
+
+.articlebox{
+	display: inline-block;
+	margin-left: 126px;
+	margin-top: 70px;
+	width:536px ;
+	height: 461px;
+}
+section h2 {
+	font-size: 42px;
+	font-family: 'Poppins-extrabold';
+	width: 374px;
+	height: 115px;
+}
+#first{
+	font-size: 16px;
+	font-family: 'Poppins-medium';
+	width: 444px;
+	height: 78px;
+}
+#second{
+	margin-top: 14px;
+	font-size: 14px;
+	font-family: 'Poppins-regular';
+	width: 444px;
+	height: 84px;
+}
+#read a{
+	font-size: 14px;
+	font-family: 'Poppins-regular';
+	color: white;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 44.6px;
+}
+#read{
+	width: 184px;
+	height: 50px;
+	background-color: #5863F8;
+	margin-left: 10px;
+	margin-top: 36px;
+}
+#read  img{
+	vertical-align: middle;
+	display: inline-block;
+}
+.imagesbox{
+	vertical-align: top;
+	display: inline-block;
+	width: 536px;
+	height: 461px;
+	margin-top: 70px;
+	margin-right: 139px;
+}
+#hall{
+	margin-left: 12px;
+}
+#stars{
+	margin-top: 12px;
+}
+/*footer */
+.footerbox{
+	margin-top: 64px;
+	width: 1366px;
+	height: 304px;
+	background-color: #121212;
+}
+.footerinfo{
+	display: inline-block;
+	width: 828px;
+	height: 191px;
+	margin-top: 50px;
+	margin-left: 139px;
+}
+.footerinfo > h3{
+	color: white;
+	font-size: 24px;
+	font-family: 'Poppins-bold';
+}
+.footerinfo >p {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #B1B1B1;
+	font-family: 'Poppins-medium';
+}
+.footerinfo > div{
+	margin-top: 20px;
+}
+.footerinfo img {
+	padding-right: 21.5px;
+}
+.copy{
+	margin-top: 9px;
+}
